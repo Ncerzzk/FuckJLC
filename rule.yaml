@@ -7,7 +7,7 @@
 # KiCad一般是-Edge_Cuts或者Keep Out层
 
 # KiCad
-# Outline: -Edge_Cuts
+Outline: -EdgeCuts
 
 # 禁止布线层 Keep Out，Protel格式文件扩展名
 # 适用于Altium Designer
@@ -26,18 +26,18 @@
 # 根据自身情况选择，务必核对清楚
 
 # KiCad
-# Top_Cu: -F_Cu
-# Bottom_Cu: -B_Cu
-# # InnerLayer1_Cu: -In1_Cu
-# # InnerLayer2_Cu: -In2_Cu
-# # InnerLayer3_Cu: -In3_Cu
-# # InnerLayer4_Cu: -In4_Cu
-# Top_SilkScreen: -F_Silkscreen
-# Bottom_SilkScreen: -B_Silkscreen
-# Top_SolderMask: -F_Mask
-# Bottom_SolderMask: -B_Mask
-# Top_SolderPaste: -F_Paste
-# Bottom_SolderPaste: -B_Paste
+Top_Cu: -Top_Cu
+Bottom_Cu: -Bottom_Cu
+InnerLayer1_Cu: -inner1
+InnerLayer2_Cu: -inner2
+# InnerLayer3_Cu: -inner3
+# InnerLayer4_Cu: -inner4
+Top_SilkScreen: -Top_Silk
+Bottom_SilkScreen: -Bottom_Silk
+Top_SolderMask: -Top_Mask
+Bottom_SolderMask: -Bottom_Mask
+Top_SolderPaste: -Top_Paste
+Bottom_SolderPaste: -Bottom_Paste
 
 # Protel格式文件扩展名
 # 适用于 KiCad Altium Designer
